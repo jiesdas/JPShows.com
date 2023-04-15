@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Bahnschrift;
+  src: url(bahnschrift.woff2);
+}
+*{font-family:Bahnschrift;}
+body{text-align: center;background: url('https://images.fineartamerica.com/images-medium-large/abstract-orange-and-red-background-nattapon-wongwean.jpg');background-size: cover;color:white;}
+@media only screen and (max-width: 500px){
+body{
+text-align: left;
+}
+}
+a{color:orange;transition: .1s;}
+a:hover{color:aqua;}
+a:active{color:dodgerblue;}
+a.shows{color:yellow;transition: .1s;}
+a.shows:hover{color:orangered;}
+a.shows:active{color:azure;}
+a.help{color:white;transition: .1s;}
+a.help:hover{color:lightblue;}
+a.help:active{color:cyan;}
+.ep{gap:8px;}
