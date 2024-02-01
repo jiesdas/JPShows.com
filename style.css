@@ -19,7 +19,7 @@ a.help{color:white;transition: .1s;}
 a.help:hover{color:lightblue;}
 a.help:active{color:cyan;}
 .ep{gap:8px;}
-.premiere{animation: premiere 2.5s; animation-iteration-count: infinite;}
+a.premiere{animation: premiere 2.5s; animation-iteration-count: infinite;}
 @keyframes premiere{
   0%{color: blue;}
   25%{color: #00FFB2;}
